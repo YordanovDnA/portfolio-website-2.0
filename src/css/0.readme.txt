@@ -1,0 +1,23 @@
+##This folder contain all the css for this project. 
+
+There is one main.scss file where we have the general css and all 
+other files imported
+
+Files legend: 
+    main.scss - general css and all other files imported for bundle.
+    variables.scss - asigned variables with colors, fonts, breakpoints,etc.
+    navigation.scss - css for all navigation menus.
+    profileSection.scss - the profile section.
+    mainSection.scss - the main section of the website. This is the section
+        where page is render when is chosen from the navigation.
+    homePage.scss - This is the home page rendered in the mainSection.
+        It has developer name and greating.
+
+    // More files and descriptions coming here.
+
+    mediaQueries.scss - this file contain all media queries that are
+        related to the website responsiveness. 
+    
+    
+    
+    

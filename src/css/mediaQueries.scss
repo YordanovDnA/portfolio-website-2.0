@@ -1,0 +1,50 @@
+// Media queries
+
+//Breakpoint to extra large screens (for tablets landscape) and under
+@media screen and (max-width: $breakpoint-xl) {
+  .profileSection {
+    width: 300px;
+  }
+  #profileImgDots {
+    left: 148px;
+  }
+}
+
+//Breakpoint to large screens (for tablets portrait) and under
+
+@media screen and (max-width: $breakpoint-lg) {
+  .navBar {
+    display: none;
+  }
+
+  .profileSection {
+    display: none;
+  }
+
+  #profileImgDots {
+    display: none;
+  }
+
+  .hamburgerMenuIcon {
+    display: block;
+  }
+
+  .main {
+    height: 100vh;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+  .resumeProfileSection {
+    display: none;
+  }
+
+  .some-projects {
+    height: 90vh;
+    overflow-y: auto;
+  }
+}

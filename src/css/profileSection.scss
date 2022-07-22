@@ -1,0 +1,64 @@
+//Profile section
+
+.profileSection {
+  font-family: $primaryFont;
+  background-color: $secondaryBackgroundColor;
+  width: 420px;
+  color: $textColor;
+  padding-top: 60px;
+}
+
+.resumeProfileSection {
+  font-family: $primaryFont;
+  background-color: $secondaryBackgroundColor;
+  width: 420px;
+  color: $textColor;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.profileImgWrapper {
+  display: flex;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+/*When using React-image-appear with border radius in React the
+pacehomlder build in the module has white backgroud and this background
+appear to the sides. This line is to remove this background. */
+
+.profileImgWrapper > div {
+  background-color: transparent !important;
+  display: flex;
+  z-index: 2;
+}
+
+.profileImg {
+  width: 100%;
+  border-radius: 100px;
+  display: flex;
+  z-index: 2;
+  box-shadow: 2px 3px 10px $primaryBackgroundColor;
+  border: 1px solid $primaryBackgroundColor;
+}
+
+//Existing media query. Go to mediaQuery.scss
+
+#profileImgDots {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: flex;
+  z-index: 0;
+  left: 207px;
+  top: 70px;
+}
+
+.socialMediaIcons {
+  color: $textColor;
+  margin: 0 5px;
+  font-size: 25px;
+}

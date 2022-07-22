@@ -1,0 +1,41 @@
+Hey, let me navigate you through all these files. 
+
+This folder contains all the components of this website. 
+The website is divided on three sections and turn into one 
+section with hamburger menu on small screen devices (tablets and mobile).
+
+Large screens:
+
+    On large screens it has from left to right the following sections:
+        
+        1. Navigation bar. - **navBar.jsx** 
+        2. Profile section (photo, text and social media links for the developer) - **profileSection.jsx**
+        3. The main section - this section is in **./src/App.js** under div with class main or look for coment **Main section**
+            This is the section where all the other components are rendered
+            when you navigate throgh the website.
+            
+            Components rendered to the main section:
+            a- 404page.jsx
+            b- homePage.jsx
+            c- aboutMe.jsx
+            d- resume.jsx
+            e- blog.jsx
+            f- contact.jsx
+        
+        **Note:** Every component can use other components.
+
+Medium and small devices:
+
+    On medium and small devices (tablets and mobile), the website has one main section and a hamburger menu. 
+    The profile section is hidden on these screens. 
+
+        1. Main Section - this section is in **./src/App.js** under div with class main or look for coment **Main section**
+            a- **hamburgerMenu.** and **hamburgerMenuIcon.jsx** - these two are hidden on large devices. 
+            b- 404Page.jsx
+            c- homePage.jsx
+            d- aboutMe.jsx
+            e- resume.jsx
+            f- blog.jsx
+            g- contact.jsx
+        
+        **Note:** Every component can use other components.

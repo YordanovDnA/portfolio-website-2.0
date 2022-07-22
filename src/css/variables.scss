@@ -1,0 +1,19 @@
+@font-face {
+  font-family: popins-light;
+  src: url("../fonts/poppins/Poppins-Light.ttf");
+}
+
+$primaryFont: popins-light;
+
+$textColor: #eee;
+$secondTextColor: rgb(202, 202, 202);
+$blueColor: #04b4e0 !important;
+
+$primaryBackgroundColor: #222;
+$secondaryBackgroundColor: #444444;
+
+$breakpoint-xl: 1200px;
+$breakpoint-lg: 992px;
+$breakpoint-md: 768px;
+$breakpoint-sm: 576px;
+$breakpoint-xs: 0px;

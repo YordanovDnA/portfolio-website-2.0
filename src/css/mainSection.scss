@@ -1,0 +1,11 @@
+//Main section
+
+.main {
+  background-color: $primaryBackgroundColor;
+  color: $textColor;
+  text-align: center;
+  height: 97vh;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  padding-top: 60px;
+}

@@ -1,0 +1,116 @@
+/* This file contain all the navigations related css*/
+// #1. Navigation bar
+// #2. Hamburger menu
+// #3. Hamburger menu icon
+
+// #1. Navigation bar
+
+.navBar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 97vh;
+  width: 100px;
+  background-color: $primaryBackgroundColor;
+}
+
+.navBar ul {
+  list-style-type: none;
+}
+
+.navBar ul li {
+  text-align: center;
+  padding: 0 0 0 1rem;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+}
+
+.navBar ul li a span {
+  display: block;
+}
+
+.navBar ul li a span:nth-child(odd) {
+  font-size: 30px;
+  color: $textColor;
+}
+
+.navBar ul li a span:nth-child(even) {
+  color: $textColor;
+  font-family: $primaryFont;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navBar hr {
+  background-color: $secondaryBackgroundColor;
+}
+
+.active {
+  color: $blueColor;
+}
+
+// #2. Hamburger Menu
+
+.hamburgerMenuWrapper {
+  background-color: rgba(1, 1, 1, 0.8);
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+
+.hamburgerMenu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100vh;
+  width: 250px;
+  background-color: $secondaryBackgroundColor;
+}
+
+.hamburgerMenu ul {
+  list-style-type: none;
+}
+
+.hamburgerMenu ul li {
+  text-align: center;
+  padding: 0 0 0 1rem;
+}
+
+.hamburgerMenu ul li a {
+  text-decoration: none;
+}
+
+.hamburgerMenu ul li a span {
+  display: block;
+}
+
+.hamburgerMenu ul li a span:nth-child(odd) {
+  font-size: 30px;
+  color: $textColor;
+}
+
+.hamburgerMenu ul li a span:nth-child(even) {
+  color: $textColor;
+  font-family: $primaryFont;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.hamburgerMenu hr {
+  background-color: $primaryBackgroundColor;
+}
+
+// #3. Hamburger menu icon
+
+.hamburgerMenuIcon {
+  display: none;
+  left: 20px;
+  top: 10px;
+  padding: 12px;
+  width: 52px;
+  border-radius: 80px;
+  position: absolute;
+}

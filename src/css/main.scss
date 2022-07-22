@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "navigation.scss";
+@import "profileSection.scss";
+@import "mainSection.scss";
+@import "homePage.scss";
+@import "mediaQueries.scss";
+@import "aboutMe.scss";
+@import "resume.scss";
+@import "portfolio.scss";
+
+//General
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $primaryFont;
+}
+
+body {
+  overflow: initial;
+  font-family: $primaryFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $primaryFont;
+}
+
+// 404 Page
+
+.page404 > h1 {
+  font-size: 60px;
+  margin: 20%;
+}
+
+//Colors
+.bg-blue {
+  background-color: $blueColor;
+}
+
+.bg-secondaryBackground {
+  background-color: $secondaryBackgroundColor;
+}
+
+.text-secondColor {
+  color: $secondTextColor;
+}
+
+.text-blue {
+  color: $blueColor;
+}
+
+//This is fixing the white background to the ReactImageAppearPlaceholder
+.ReactImageAppearPlaceholder {
+  background-color: transparent !important;
+}

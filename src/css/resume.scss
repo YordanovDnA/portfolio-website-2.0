@@ -1,0 +1,33 @@
+#resumeDotsSpec {
+  display: flex;
+  z-index: 1;
+  left: 150px;
+  top: 12px;
+  width: 50px;
+  height: 40px;
+}
+
+#resumeHeading {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+#profileDots {
+  width: 85px;
+  height: 5px;
+  top: 30px;
+}
+
+#employmentHistoryDotsSpec {
+  width: 255px;
+  height: 5px;
+  top: 35px;
+}
+
+#educationDotsSpec {
+  position: relative;
+  width: 85px;
+  height: 5px;
+  top: 20px;
+}
