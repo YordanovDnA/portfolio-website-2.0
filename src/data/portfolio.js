@@ -37,6 +37,7 @@ export const portfolio = [
             description: "This technical test is part of my application for a front-end developer position in Team ITG. Team ITG is a company with focus on the technologies. Some of their services are Market resource management, Marketing Automation, Automated creative prodution, Web & aoo solutions and more. ",
             shortDescription: "This technical test is part of my application for a front-end developer position in Team ITG. Team ITG is a company...",
             technology: ["HTML", "SASS", , "JavaScript", "React"],
+            url: "https://62dd55e7e68cdc65ad88a429--celebrated-blancmange-be882c.netlify.app",
             repository: "https://github.com/YordanovDnA/connect-group-front-end-test",
         },
         photos: {
@@ -54,7 +55,8 @@ export const portfolio = [
             dateCompleted: "In process",
             description: "At this project I combined all of my skills together to develop website, mobile app and a dashbord. Managing a team of 5, creating the UI/UX design using Marvel App, helping with the development of the marketing strategy, and more. We're developing platform where users can find information about essential oils, and how to use them in different helth conditions. The platform have normal and premium users, plus paid courses for better undertanding how to mix oils or herbs, and use them to prevent bad health conditions.",
             shortDescription: "EasternBeauty is a platform where users can find information about essential oils, and how to use them in different helth conditions.",
-            technology: ["HTML", "SASS", "Bootstrap 4", "JavaScript", "React", "Next.js", "NodeJS", "Express", "MarvelApp", "Freedcamp"]
+            technology: ["HTML", "SASS", "Bootstrap 4", "JavaScript", "React", "Next.js", "NodeJS", "Express", "MarvelApp", "Freedcamp"],
+            url: "https://eastern-beauty-web.herokuapp.com",
         },
         photos: {
             thumbnail: EasternBeauty,

@@ -42,7 +42,7 @@ const Resume = () => {
             <p className="text-justify border rounded p-2">
               Proficient in JavaScript, HTML and CSS plus modern libraries and
               frameworks such as React and Redux. Passionate about UI & UX
-              design.A quick learner with a strong work ethic who has an eye for
+              design. A quick learner with a strong work ethic who has an eye for
               the detail and works well in a team setting. Implementing web
               design and development principles to build stable software.
               Building websites and apps that are responsive and usable.

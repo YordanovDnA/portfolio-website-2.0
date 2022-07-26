@@ -101,17 +101,19 @@ const Project = (props) => {
             <span className="lnr lnr-user text-blue mr-2 "></span>
             {project.info.client}
           </div>
-          <div className="mt-2">
-            <span className="lnr lnr-link text-blue  mr-2 "></span>
-            <a
-              className="text-blue"
-              rel="noopener noreferrer"
-              href={project.info.url}
-              target="_blank"
-            >
-              Visit
-            </a>{" "}
-          </div>
+          {project.info.url && (
+            <div className="mt-2">
+              <span className="lnr lnr-link text-blue  mr-2 "></span>
+              <a
+                className="text-blue"
+                rel="noopener noreferrer"
+                href={project.info.url}
+                target="_blank"
+              >
+                Visit
+              </a>{" "}
+            </div>
+          )}
           {project.info.repository && (
             <div className="mt-2">
               <FontAwesomeIcon className="text-blue mr-2" icon={faGithub} />
